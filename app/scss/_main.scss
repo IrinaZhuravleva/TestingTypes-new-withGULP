@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 1340px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.testing {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 24%;
+}
+
+.block {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border: 2px solid grey;
+    /* background-color: grey; */
+    border-radius: 7px;
+    min-height: 100px;
+    width: 300px;
+    margin-bottom: 20px;
+    &-objectives{
+        min-height: 280px;
+    }
+    &-basis {
+        min-height: 590px;
+    }
+    &-objects {
+        min-height: 330px;
+    }
+    &-defects {
+        min-height: 670px;
+    }
+}

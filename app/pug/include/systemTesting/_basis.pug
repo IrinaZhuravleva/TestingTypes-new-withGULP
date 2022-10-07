@@ -1,0 +1,15 @@
+- 
+    var slides = [
+        {"li": "System and software requirement specifications (functional and non-functional)"},
+        {"li": "Risk analysis reports"},
+        {"li": "Use cases"},
+        {"li": "Epics and user stories"},
+        {"li": "Models of system behavior"},
+        {"li": "State diagrams"},
+        {"li": "System and user manuals"}];
+
+.block.block-basis
+    h3 Test basis
+    ul
+    each slide in slides
+        li= slide.li

@@ -1,0 +1,14 @@
+- 
+    var slides = [
+        {"li": "Incorrect calculations"},
+        {"li": "Incorrect or unexpected system functional or non-functional behavior"},
+        {"li": "Incorrect control and/or data flows within the system"},
+        {"li": "Failure to properly and completely carry out end-to-end functional tasks"},
+        {"li": "Failure of the system to work properly in the production environment(s)"},
+        {"li": "Failure of the system to work as described in system and user manuals"}];
+
+.block.block-defects
+    h3 Typical defects and failures
+    ul
+    each slide in slides
+        li= slide.li  

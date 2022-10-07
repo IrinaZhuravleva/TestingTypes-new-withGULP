@@ -1,0 +1,13 @@
+- 
+    var slides = [
+        {"li": "Detailed design"},
+        {"li": "Code"},
+        {"li": "Data model"},
+        {"li": "Component specifications"}];
+
+.block.block-basis
+    h3 Test basis
+    ul
+    each slide in slides
+        li= slide.li
+        

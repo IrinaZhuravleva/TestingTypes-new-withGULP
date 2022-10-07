@@ -1,0 +1,15 @@
+extends _template.pug
+//- http://testing-types-istqb.surge.sh/
+block title
+	title Testing types
+
+block content
+	button(id="HideObjectives") Hide Objectives
+	button(id="HideBasis") Hide Basis
+	button(id="HideObjects") Hide Objects
+	button(id="HideDefects") Hide Defects
+	button(id="HideApproaches") Hide Approaches
+	
+	include include/_page-section.pug
+	
+	script(src="../js/main.min.js")

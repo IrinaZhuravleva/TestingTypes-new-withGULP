@@ -1,0 +1,11 @@
+- 
+    var slides = [
+        {"li": "Incorrect functionality (e.g., not as described in design specifications)"},
+        {"li": "Data flow problems"},
+        {"li": "Incorrect code and logic"}];
+
+.block.block-defects
+    h3 Typical defects and failures
+    ul
+    each slide in slides
+        li= slide.li

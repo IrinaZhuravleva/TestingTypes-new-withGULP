@@ -1,0 +1,14 @@
+- 
+    var slides = [
+        {"li": "Subsystems"},
+        {"li": "Databases"},
+        {"li": "Infrastructure"},
+        {"li": "Interfaces"},
+        {"li": "APIs"},
+        {"li": "Microservices"}];
+
+.block.block-objects
+    h3 Test objects
+    ul
+    each slide in slides
+        li= slide.li

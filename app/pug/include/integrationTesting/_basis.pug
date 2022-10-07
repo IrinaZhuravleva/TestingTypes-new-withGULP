@@ -1,0 +1,15 @@
+- 
+    var slides = [
+        {"li": "Software and system design"},
+        {"li": "Sequence diagrams"},
+        {"li": "Interface and communication protocol specifications"},
+        {"li": "Use cases"},
+        {"li": "Architecture at component or system level"},
+        {"li": "Workflows"},
+        {"li": "External interface definitions"}];
+
+.block.block-basis
+    h3 Test basis
+    ul
+    each slide in slides
+        li= slide.li

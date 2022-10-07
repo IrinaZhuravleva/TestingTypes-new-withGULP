@@ -1,0 +1,29 @@
+- 
+    var slides = [
+        {"li": "Incorrect data, missing data, or incorrect data encoding"},
+        {"li": "Incorrect sequencing or timing of interface calls"},
+        {"li": "Interface mismatch"},
+        {"li": "Failures in communication between components"},
+        {"li": "Unhandled or improperly handled communication failures between components"},
+        {"li": "Incorrect assumptions about the meaning, units, or boundaries of the data being passed between components"}];
+
+- 
+    var slides2 = [
+        {"li": "Inconsistent message structures between systems"},
+        {"li": "Incorrect data, missing data, or incorrect data encoding"},
+        {"li": "Interface mismatch"},
+        {"li": "Failures in communication between systems"},
+        {"li": "Unhandled or improperly handled communication failures between systems"},
+        {"li": "Incorrect assumptions about the meaning, units, or boundaries of the data being passed between systems"}, 
+        {"li": "Failure to comply with mandatory security regulations"}];
+
+.block.block-defects
+    h3 Typical defects and failures for component integration testing
+    ul
+    each slide in slides
+        li= slide.li
+
+    h3 Typical defects and failures for system integration testing
+    ul
+    each slide2 in slides2
+        li= slide2.li

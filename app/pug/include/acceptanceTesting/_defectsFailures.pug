@@ -1,0 +1,12 @@
+- 
+    var slides = [
+        {"li": "System workflows do not meet business or user requirements"},
+        {"li": "Business rules are not implemented correctly"},
+        {"li": "System does not satisfy contractual or regulatory requirements"},
+        {"li": "Non-functional failures such as security vulnerabilities, inadequate performance efficiency under high loads, or improper operation on a supported platform"}];
+
+.block.block-defects
+    h3 Typical defects and failures
+    ul
+    each slide in slides
+        li= slide.li

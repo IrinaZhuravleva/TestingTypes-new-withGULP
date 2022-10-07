@@ -1,0 +1,13 @@
+- 
+    var slides = [
+        {"li": "Applications"},
+        {"li": "Hardware/software systems"},
+        {"li": "Operating systems"},
+        {"li": "System under test (SUT)"},
+        {"li": "System configuration and configuration data"}];
+
+.block.block-objects
+    h3 Test objects
+    ul
+    each slide in slides
+        li= slide.li

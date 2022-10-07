@@ -1,0 +1,14 @@
+- 
+    var slides = [
+        {"li": "Reducing risk"},
+        {"li": "Verifying whether the functional and non-functional behaviors of the interfaces are as designed and specified"},
+        {"li": "Building confidence in the quality of the interfaces"},
+        {"li": "Finding defects (which may be in the interfaces themselves or within the components or systems)"},
+        {"li": "Preventing defects from escaping to higher test levels"}];
+
+.block.block-objectives
+    h3 Objectives
+    ul
+    each slide in slides
+        li= slide.li
+        

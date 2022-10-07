@@ -1,0 +1,16 @@
+- 
+    var slides = [
+        {"li": "System under test"},
+        {"li": "System configuration and configuration data"},
+        {"li": "Business processes for a fully integrated system"},
+        {"li": "Recovery systems and hot sites (for business continuity and disaster recovery testing)"},
+        {"li": "Operational and maintenance processes"},
+        {"li": "Forms"},
+        {"li": "Reports"},
+        {"li": "Existing and converted production data"}];
+
+.block.block-objects
+    h3 Test objects
+    ul
+    each slide in slides
+        li= slide.li

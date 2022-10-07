@@ -1,0 +1,12 @@
+- 
+    var slides = [
+        {"li": "Components, units or modules"},
+        {"li": "Code and data structures"},
+        {"li": "Classes"},
+        {"li": "Database modules"}];
+
+.block.block-objects
+    h3 Test objects
+    ul
+    each slide in slides
+        li= slide.li      
